@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://images6.alphacoders.com/864/thumb-1920-864743.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+    transition: background-image 0.5s ease-in-out;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #ff4500;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+#quote-display {
+    display: none; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 66%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#quote-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: white	;
+    text-align: center; 
+}
+
+#quote-author {
+    margin-top: 10px;
+    font-size: 18px;
+    color: white	;
+    text-align: center;
+}
+
+.content-container {
+    margin-top: 250px; 
+    text-align: center;
+}
